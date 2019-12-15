@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="tille" />
+                    <EditText
+                        android:id="@+id/mo"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:hint=""
+                        />
+
+                </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="remid me at:"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/time"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="283dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+<!--            <DatePicker-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TimePicker-->
+<!--            android:id="@+id/time1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="type: "
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/typetext"
+                android:layout_width="150dp"
+                android:layout_height="40dp" />
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:text="tag: "
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/tag"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/tagtext"
+                android:layout_width="150dp"
+                android:layout_height="40dp" />
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:text="week: "
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/week"
+            >
+            <EditText
+                android:id="@+id/weektext"
+                android:layout_width="150dp"
+                android:layout_height="40dp" />
+        </Button>
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_tune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tune"/>
+    </LinearLayout>
